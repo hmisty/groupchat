@@ -28,7 +28,27 @@ References
 
 Contribution
 ---
+Fork, clone, coding, commit and send pull request.
+### Development Environment setup under Windows
+  1. Install msysgit (http://code.google.com/p/msysgit) and setup correctly according to the tutorial of github (http://help.github.com/win-set-up-git/).
+  1. Download the full msys (http://www.mingw.org/wiki/MSYS) and install it.
+  1. Download and install erlang (http://www.erlang.org/download.html).
+  1. Start Git Bash via right-click menu, and vim ~/.bash_profile to edit the PATH setup: export PATH=$PATH:/c/msysgit/msysgit/bin:/c/Program\ Files/erl5.9.1/bin
+  1. Restart Git Bash.
+  1. [Important] Execute "which bash", rename any bash.exe to bash.exe.bak if found. (otherwise rebar will not work well)
 
+### Fork & clone
+  1. Browse to https://github.com/hmisty/groupchat and fork.
+  1. git clone git@github.com:YOUR_ID/groupchat.git
+  1. cd groupchat
+  1. make
+  1. ./start-dev.sh
+  1. Browse http://localhost:8080/
+
+### Commit & send pull request
+  1. git push
+  1. Browse to https://github.com/YOUR_ID/groupchat
+  1. Click "Pull Request"
 
 License
 ---
