@@ -49,7 +49,6 @@ Contribution
 Fork, clone, coding, commit and send pull request.
 ### Development Environment setup under Windows
   1. Install msysgit (http://code.google.com/p/msysgit) and setup correctly according to the tutorial of github (http://help.github.com/win-set-up-git/).
-  1. Download the full msys (http://www.mingw.org/wiki/MSYS) and install it.
   1. Download and install erlang (http://www.erlang.org/download.html).
   1. Start Git Bash via right-click menu, and vim ~/.bash_profile to edit the PATH setup: export PATH=$PATH:/c/msysgit/msysgit/bin:/c/Program\ Files/erl5.9.1/bin
   1. Restart Git Bash.
