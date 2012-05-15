@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, groupchat,
+ [{description, "groupchat"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'groupchat_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
