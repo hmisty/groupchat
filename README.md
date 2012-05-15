@@ -54,7 +54,7 @@ License
 ---
 This project is published under GPL v3.
 
-12306 - large volume high concurrent ticketing system proof-of-concept
+GroupChat - an open source implementation of chatroom in web browser which can support millions of online users.
 
 Copyright (C) 2012 Evan Liu (hmisty@gmail.com)
 
