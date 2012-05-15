@@ -4,15 +4,33 @@ GroupChat is an open source implementation of chatroom in web browser which can 
 
 Requirements
 ---
+Functional
+  * join/create room
+  * talk/private message
+  * nickname/password
+  * list of users in the room
+  * lock/unlock the room
+  * UTF-8 support
+  * image posting
+  * file sharing
+  * chat recording (text + image + file)
+  * search of chat records
+  * voice conference
+  * video conference
 
+Non-functional
+  * supports millions of online users
+  * needs only commodity server and cloud servers e.g. EC2
+  * horizontal scalability to simply add servers to increase capacity
 
 Technology
 ---
-
-
-Architecture
----
-
+  * erlang/OTP (http://www.erlang.org/)
+  * mochiweb (https://github.com/mochi/mochiweb)
+  * redis (http://redis.io/)
+  * HTML5 (http://html5.org/)
+  * jquery (http://jquery.com/)
+  * android (http://developer.android.com/)
 
 Installation
 ---
@@ -24,7 +42,7 @@ Testing
 
 References
 ---
-
+  1. IRC http://en.wikipedia.org/wiki/Internet_Relay_Chat
 
 Contribution
 ---
