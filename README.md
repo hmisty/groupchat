@@ -54,18 +54,19 @@ Part I: Download
   1. otp_win32_R15B01.exe from http://www.erlang.org/download.html
 
 Part II: Install
-  1. Unzip PortableGit-*.7z to C:/Git/.
-  1. Install MSYS-1.0.11.exe to C:/msys/1.0/. Copy C:/msys/1.0/bin/make.exe to C:/Git/bin/. Uninstall MSYS.
+  1. Unzip PortableGit-*.7z to C:/PortableGit/.
+  1. Install MSYS-1.0.11.exe to C:/msys/1.0/. Copy C:/msys/1.0/bin/make.exe to C:/PortableGit/bin/. Uninstall MSYS.
   1. Install opt_win32_R15B01.exe to C:/Program\ Files/erl5.9.1/.
 
 Part III: Configure
-  1. Register Git to the right-click menu. Open cmd.exe, "cd C:/Git/git-cheetah", then "regsvr32 /i git_shell_ext.dll". You may need to rename git_shell_ext.dll.new to git_shell_ext.dll first. Close all explorers and re-open them to see the changes of your right-click menu with a new "Git Bash".
+  1. Register Git to the right-click menu. Open cmd.exe, "cd C:/PortableGit/git-cheetah", then "regsvr32 /i git_shell_ext.dll". You may need to rename git_shell_ext.dll.new to git_shell_ext.dll first. Restart Windows Explorer to see the changes of your right-click menu with a new menu item called "Git Bash".
   1. Setup git correctly according to the tutorial of github (http://help.github.com/win-set-up-git/).
   1. Start Git Bash via right-click menu, and vim ~/.bash_profile to edit the PATH setup: export PATH=$PATH:/c/Program\ Files/erl5.9.1/bin
   1. Restart Git Bash.
 
 Possible Issues
   1. If make and rebar does not work, execute "which bash", rename any bash.exe to bash.exe.bak if found.
+  1. Strictly use the dir name "PortableGit" otherwise git cannot fork ssh to push/pull.
 
 ### Fork & clone
   1. Browse to https://github.com/hmisty/groupchat and fork.
